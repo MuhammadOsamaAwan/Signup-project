@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(243,246,240,1) 0%, rgba(239,242,241,1) 37%, rgba(132,138,232,1) 100%);
+
+}
+#profileBar{
+   margin: 60px auto;
+   max-width: 800px;
+   border-top-right-radius: 100px;
+   border-bottom-left-radius: 100px;
+   
+}
+#userImg3{
+  height: 100%;
+   background-size: cover;
+   border-top-right-radius: 50px;
+   border-bottom-left-radius: 100px;
+   
+}
+.list-group{
+   width: 300px;
+   margin-left: 50px;
+}
+.btn-primary{
+    width: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-left: 60px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+.list-group-item{
+    border: none;
+}
+.userDescr{
+    width: 250px;
+    
+}
+.card-body{
+    margin-left: 50px;
+}

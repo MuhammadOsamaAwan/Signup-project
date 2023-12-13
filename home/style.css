@@ -1,0 +1,489 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+ }
+ #inputForm{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 15px;
+    margin-left: 0;
+ }
+ #inputForm i {
+    font-size: 14px;
+    color: black;
+    opacity: 0.6;
+ }
+ #searchBar{
+    box-shadow: none;
+ }
+ #inputForm input{
+    border: none;
+ }
+ .nav-item i{
+    font-size: 23px;
+    margin-right: 7px;
+ }
+ .firstLogo{
+    border-bottom: 2px solid blue;
+ }
+ .logo{
+    display: flex;
+    align-items: center;
+ }
+ .logo i {
+    font-size: 38px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: blue;
+ }
+ #navbarMiddleIcons{
+    margin-right: 30px;
+      padding: 1px 5px;
+ }
+
+ /* main css start from here */
+ #mainSite{
+    border: 1px solid red;
+ }
+ #sectionA{
+    border: 1px solid black;
+    height: 540px;
+    overflow-y: scroll;
+    background-color: rgb(247, 240, 253);
+ }
+  /* section B */
+ #sectionB{
+    border: 1px solid green;
+    padding-left: 0;
+    position: relative;
+    margin: 0 48px;
+
+ }
+ .postCard{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 400px;
+ }
+ .postCard::-webkit-scrollbar{
+  display: none;
+ }
+ .searchBar{
+   width: 420px;
+   padding: 10px 6px;
+   border-radius: 20px;
+   background-color: rgb(243, 234, 234);
+   cursor: pointer;
+ }
+ #secttionBSearchBar{
+   display: flex;
+   align-items: center;
+   border-bottom: 1px solid gray;
+ }
+ .linkIcons{
+   display: flex;
+   justify-content: space-evenly;
+ }
+ .firsIcon{
+   display: flex;
+   align-items: center;
+ }
+ .firsIcon i{
+   font-size: 23px;
+ }
+ .firsIcon p{
+   font-size: 18px;
+   margin-bottom: 0;
+   margin-left: 5px;
+ }
+ #secttionBSearchBar i{
+   font-size: 30px;
+   width: 45px;
+   height: 45px;
+   padding: 5px 7px;
+   border: 1px solid ;
+   border-radius: 50%;
+ }
+ .searchBar p {
+   margin-bottom: 0;
+ }
+ #sectionC{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+ }
+ .hidden{
+  display: none;
+ }
+ .show{
+  display: block;
+ }
+ #check{
+    background-color:  rgb(247, 240, 253) !important;
+
+}
+.iconsWithDetail{
+   background-color: rgb(247, 240, 253);
+
+    display: flex;
+    margin-top: 10px;
+    padding: 5px 2px;
+ }
+ .iconsWithDetail p {
+   font-size: 18px;
+ }
+ .iconsWithDetail:hover{
+   background-color: rgb(207, 201, 201) !important;
+   border-bottom-left-radius: 10px;
+   border-top-left-radius: 10px;
+ }
+ .iconsWithDetail i{
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    padding: 3px 4px;
+    text-align: center;
+    margin-right: 15px;
+    
+ }
+ 
+ /* Profile scroll bar */
+ .line1{
+   display: flex;
+   align-items: center;
+   border-bottom: 1px solid grey;
+   padding-bottom: 10px;
+ }
+ .line1 img{
+   border-radius: 50%;
+   width: 30px;
+ }
+ .line2{
+   display: flex;
+   align-items: center;
+   margin-top: 15px;
+   padding: 3px 4px;
+   border-radius: 10px;
+ }
+ .line2{
+   display: flex;
+   align-items: center;
+   margin-top: 15px;
+   padding: 3px 4px;
+   border-radius: 10px;
+ }
+ .line2 p:hover {
+  color: #e3362c;
+ }
+ .line2 p {
+   font-size: 15px;
+   margin-bottom: 0;
+ }
+ .line2 i:first-child{
+   font-size: 19px;
+   text-align: center;
+   width: 35px;
+   padding: 8px 0;
+   border-radius: 50%;
+   margin-right: 13px;
+   background-color: rgb(232, 230, 230);
+ }
+ #profileImg{
+   border: 1px solid grey;
+   color: black;
+ }
+ #input-file{
+   display: none;
+ }
+ .line1 label{
+   display: flex;
+   font-size: 10px;
+   padding: 2px 2px;
+   border: 1px solid grey;
+   background-color: #e3362c;
+   color: #fff;
+   border-radius: 10px;
+   margin-top: 5px;
+ }
+ .line1 label:hover{
+   background-color: blue;
+
+ }
+ .line1 h5{
+   padding-bottom: 10px;
+ }
+ .line2 p{
+   width: 200px;
+ }
+ .line2 i:last-child{
+   font-size: 30px;
+ }
+ .line2:hover{
+   background-color: rgb(247, 240, 253);
+   cursor: pointer;
+ }
+
+
+ /* post css start from here */
+ .post{
+   display: flex;
+   margin-left: 10px;
+   
+ }
+ .displayPost{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .post i {
+   font-size: 25px;
+   margin-right: 10px;
+   border: 1px solid black;
+   width: 35px;
+   height: 35px;
+   padding: 2px 4px;
+   border-radius: 50%;
+ }
+ .post p{
+   opacity: 0.8;
+   font-size: 20px;
+ }
+ .postIcon i {
+   font-size: 20px;
+   margin-right: 10px;
+   opacity:0.8 ;
+ }
+ /* like, comment and share */
+ #dltBtn{
+  cursor: pointer;
+  background-color: rgb(196, 194, 194);
+  padding: 4px 6px;
+  border-radius: 50%;
+  color: #fff;
+ }
+ #editBtn{
+  cursor: pointer;
+  background-color: rgb(185, 183, 183);
+  padding: 4px 6px;
+  border-radius: 50%;
+  color: #fff;
+ }
+ #editBtn:hover{
+  color: green;
+ }
+ #dltBtn:hover{
+  color: red;
+ }
+ .likeAndComments{
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-top: 10px;
+ }
+ .likeAndComments i {
+  font-size: 23px;
+  margin-right: 10px;
+ }
+ .thumb{
+  display: flex;
+ }
+
+
+ /* postCard */
+ #postCard2{
+     position: absolute;
+     top: 10px;
+     display: none;
+ }
+ .post1{
+  display: flex;
+  justify-content: space-between;
+ }
+ .post1 h5{
+  margin-left: 180px;
+ }
+ .post1 i {
+  font-size: 25px;
+  width: 35px;
+  height: 35px;
+  padding: 4px 8px;
+  border-radius: 50%;
+  background-color: rgb(232, 226, 226);
+  opacity: 0.6;
+  cursor: pointer;
+ }
+
+ #postInput{
+  width: 100%;
+  height: 50px;
+  font-size: 25px;
+  padding-left: 10px;
+  outline: none;
+ }
+ #postBtn{
+  width: 100%;
+  background-color:  rgb(195, 190, 190);
+  
+ }
+ #postBtn:hover{
+  background-color: blue;
+  color: #fff;
+ }
+ 
+ #displayPic{
+  color: rgb(12, 227, 12);
+  font-size: 25px;
+ }
+ .inputAndPicUpload{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(238, 242, 242);
+  width: 100%;
+  font-size: 18px;
+  font-weight: 550;
+  cursor: pointer;
+ }
+ .inputAndPicUpload:hover{
+  background-color: rgb(233, 227, 227);
+ }
+ .inputAndPicUpload img {
+  border-radius: 50%;
+  width: 40px;
+  background-color: rgb(212, 209, 209);
+ }
+ .postPara{
+  margin-left: 10px;
+ }
+ .searchBar:hover{
+  background-color: rgb(223, 219, 219);
+
+ }
+ #crossHandler{
+  cursor: pointer;
+ }
+ #crossHandler:hover{
+  background-color: rgb(201, 199, 199);
+ }
+ #postalCard{
+  width: 32rem;
+}
+#postCard2{
+  width: 32rem;
+}
+#postCard{
+  width: 32rem;
+  margin-top: 10px;
+}
+/* .profileBars{
+  display: none;
+} */
+ @media (max-width: 1150px) {
+  #sectionB{
+    margin: 0 30px;
+  }
+  #postalCard{
+    width: 29rem;
+  }
+  #postCard2{
+    width: 29rem;
+  }
+}
+@media (max-width: 1110px){
+  #postalCard{
+    width: 27rem;
+  }
+  #postCard2{
+    width: 27rem;
+  }
+}
+@media (max-width: 1065px){
+  #postalCard{
+    width: 25rem;
+  }
+  #postCard2{
+    width: 25rem;
+  }
+  .post1 h5{
+    margin-left: 10px;
+  }
+  .logo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .menuBar{
+    display: none;
+  }
+  .nav{
+    display: inline-block;
+  }
+  .navbar{
+    flex-direction: column;
+  }
+  .navbarBars{
+    display: none;
+  }
+  #navbarMiddleIcons{
+    margin-right: 50px;
+  }
+  .profileBars{
+    margin-right: 40px;
+  }
+}
+@media (max-width: 960px){
+  
+  #postalCard{
+    width: 100%;
+  }
+  #postCard2{
+    width: 95%;
+    left: 15px;
+  }
+  .post1 h5{
+    margin-left: 10px;
+  }
+  #sectionA{
+    display: none;
+  }
+  #sectionC{
+    display: none;
+  }
+  #postCard{
+    width: 100%;
+  }
+  #userImg{
+    width: 100%;
+  }
+  .searchBar{
+    width: 100%;
+  }
+  #sectionB{
+    margin:0 5px ;
+  }
+}
+@media (max-width: 600px){
+  #postCard2{
+    width: 94%;
+    left: 10px;
+  }
+}
+@media (max-width: 500px){
+  #postCard2{
+    width: 93%;
+    left: 5px;
+  }
+}
+@media (max-width: 365px){
+  .firsIcon p{
+      font-size: 12px;
+  }
+}
